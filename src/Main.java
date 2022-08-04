@@ -80,6 +80,27 @@ public class Main {
 
     // ЗАДАНИЕ 5
         System.out.println("ЗАДАНИЕ 5");
+        int mashaCurrentIncomePerMth  = 67760;
+        int denisCurrentIncomePerMth  = 83690;
+        int kristinaCurrentIncomePerMth  = 76230;
+        int mthPerYear = 12;
+        double raisePerYear = 1.1;
+
+        //Future income per month
+        int mashaFutureIncomePerMth  = (int) (mashaCurrentIncomePerMth * raisePerYear);
+        int denisFutureIncomePerMth  = (int) (denisCurrentIncomePerMth * raisePerYear);
+        int kristinaFutureIncomePerMth  = (int) (kristinaCurrentIncomePerMth * raisePerYear);
+
+       //Income difference per year
+        int mashaIncomeDifferencePerYear  = (int) ((mashaFutureIncomePerMth - mashaCurrentIncomePerMth) * mthPerYear);
+        System.out.println("Теперь Маша получает " + mashaFutureIncomePerMth + " руб в месяц." +
+                " Годовой доход вырос на "+ mashaIncomeDifferencePerYear+ " рублей.");
+        int denisIncomeDifferencePerYear  = (int) ((denisFutureIncomePerMth - denisCurrentIncomePerMth) * mthPerYear);
+        System.out.println("Теперь Денис получает " + denisFutureIncomePerMth + " руб в месяц." +
+                " Годовой доход вырос на "+ denisIncomeDifferencePerYear+ " рублей.");
+        int kristinaIncomeDifferencePerYear  = (int) ((kristinaFutureIncomePerMth - kristinaCurrentIncomePerMth) * mthPerYear);
+        System.out.println("Теперь Кристина получает " + kristinaFutureIncomePerMth + " руб в месяц." +
+                " Годовой доход вырос на "+ kristinaIncomeDifferencePerYear+ " рублей.");
 
 
     }
