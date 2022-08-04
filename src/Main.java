@@ -91,7 +91,7 @@ public class Main {
         int denisFutureIncomePerMth  = (int) (denisCurrentIncomePerMth * raisePerYear);
         int kristinaFutureIncomePerMth  = (int) (kristinaCurrentIncomePerMth * raisePerYear);
 
-       //Income difference per year
+        //Income difference per year
         int mashaIncomeDifferencePerYear  = (int) ((mashaFutureIncomePerMth - mashaCurrentIncomePerMth) * mthPerYear);
         System.out.println("Теперь Маша получает " + mashaFutureIncomePerMth + " руб в месяц." +
                 " Годовой доход вырос на "+ mashaIncomeDifferencePerYear+ " рублей.");
