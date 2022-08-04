@@ -23,7 +23,6 @@ public class Main {
         System.out.println("Разница в весе боксеров " + weightDifferenceBattler + "кг ");
 
      // ЗАДАНИЕ 2 - копирование видео-подсказки
-
          System.out.println("ЗАДАНИЕ 2 - копирование видео подсказки");
          double boxer1 = 78.2;
          double boxer2 = 82.7;
